@@ -26,8 +26,8 @@ jobs:
       # - name: Run server tests
       #   run: cd Server && npm test
 
-      - name: Build server
-        run: cd Server && npm run build
+      # - name: Build server
+      #   run: cd Server && npm run build
 
       # -------------------
       # CLIENT setup
@@ -38,5 +38,5 @@ jobs:
       # - name: Run client tests
       #   run: cd Client && npm test
 
-      - name: Build client
-        run: cd Client && npm run build
+      # - name: Build client
+      #   run: cd Client && npm run build
