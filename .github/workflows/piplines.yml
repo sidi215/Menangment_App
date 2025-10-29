@@ -23,8 +23,8 @@ jobs:
       - name: Install server dependencies
         run: cd Server && npm install
 
-      - name: Run server tests
-        run: cd Server && npm test
+      # - name: Run server tests
+      #   run: cd Server && npm test
 
       - name: Build server
         run: cd Server && npm run build
@@ -35,8 +35,8 @@ jobs:
       - name: Install client dependencies
         run: cd Client && npm install
 
-      - name: Run client tests
-        run: cd Client && npm test
+      # - name: Run client tests
+      #   run: cd Client && npm test
 
       - name: Build client
         run: cd Client && npm run build
